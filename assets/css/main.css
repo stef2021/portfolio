@@ -1996,7 +1996,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 3.5em 3em 1em 9em ;
 			width: 50%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
@@ -3013,7 +3013,6 @@ input, select, textarea {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 0;
-			display: block;
 			position: relative;
 			width: 25em;
 			
@@ -3107,7 +3106,7 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
+					width: 89%;
 					height: 50vh;
 				}
 
@@ -3128,7 +3127,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
+				height: 27vh;
 				min-height: 15em;
 			}
 

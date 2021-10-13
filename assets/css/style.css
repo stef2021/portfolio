@@ -19,11 +19,11 @@ strong{
     width: 85px;
 }
 .img4{
-    height: 85px; 
+    height: 85px;
     width: 110px;
 }
 .img5{
-    height: 100p;
+    height: 100px;
     width: 100px;
 }
 .img6{
@@ -33,25 +33,34 @@ strong{
 .img7{
     height: 90px;
     width: 90px;
+    position: relative;
+    left: 16%;
 }
 .img8{
     height: 80px;
     width: 120px;
+    position: relative;
+    left: 16%;
 }
 .img9{
     height: 90px; 
     width: 90px;
+    position: relative;
+    left: 16%;
+
 }
 .img10{
-    height: 90p;
+    height: 90px;
     width: 90px;
+    position: relative;
+    left: 16%;
 }
 .img11{
     height: 70px; 
     width: 90px;
 }
 .img12{
-    height: 70p;
+    height: 70px;
     width: 160px;
 }
 .subject{
@@ -61,15 +70,109 @@ strong{
 }
 .moi {
     padding: 6.5%;  
-    background-color: #b74e91;   
+    background-color: #8d3961;
+    transform: translateY(0);
+    transition: opacity 1s ease, transform 1s ease;
+    opacity: 1.0;
     
 }
 h6{
     font-size: 1.75em;
-    ;
+
 }
 .spotlights > section > .image {
     border-radius: 5%;
 	margin: 1.5em ;
 }
+.title {
+    display: flex;
+    margin-left: 7%;
+}
+.title1 {
+    display: flex;
+    margin-left: -5%;
+}
+.title2 {
+    display: flex;
+    margin-left: 10%;
+}
+.title3 {
+    display: flex;
+    margin-left: 11%;
+}
+.title4 {
+    display: flex;
+    margin-left: 23%;
+}
+.title5 {
+    display: flex;
+    margin-left: 13%;
+}
+.title6 {
+    display: flex;
+    margin-left: 11%;
+}
+.title7 {
+    display: flex;
+    margin-left: 11%;
+}
 
+@media only screen and (min-width: 982px) {
+
+    .img2{
+        position: absolute;
+        left: 14em;
+    }
+}
+
+@media only screen and (max-width: 981px) {
+
+    .img1 {
+        position: relative;
+        left: 3em;
+    }
+
+    .img2 {
+        position: absolute;
+        left: 11em;
+    }
+    .img3 {
+        position: relative;
+        left: 4em;
+    }
+
+    .img4 {
+        position: absolute;
+        left: 12em;
+    }
+    .img5 {
+        position: relative;
+        left: 3em;
+    }
+
+    .img6 {
+        position: absolute;
+        left: 12em;
+    }
+    .img7 {
+        left: 7em;
+    }
+    .img8 {
+        left: 6em;
+    }
+    .img9 {
+        left: 7em;
+    }
+    .img10 {
+        left: 7em;
+    }
+    .img11 {
+        position: relative;
+        left: 1em;
+    }
+
+    .img12 {
+        position: absolute;
+        left: 11em;
+    }
+}
