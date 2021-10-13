@@ -33,27 +33,21 @@ strong{
 .img7{
     height: 90px;
     width: 90px;
-    position: relative;
-    left: 16%;
+
 }
 .img8{
     height: 80px;
     width: 120px;
-    position: relative;
-    left: 16%;
+
 }
 .img9{
     height: 90px; 
     width: 90px;
-    position: relative;
-    left: 16%;
 
 }
 .img10{
     height: 90px;
     width: 90px;
-    position: relative;
-    left: 16%;
 }
 .img11{
     height: 70px; 
@@ -117,62 +111,17 @@ h6{
     margin-left: 11%;
 }
 
-@media only screen and (min-width: 982px) {
-
-    .img2{
-        position: absolute;
-        left: 14em;
-    }
+.features section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
 }
 
-@media only screen and (max-width: 981px) {
 
-    .img1 {
-        position: relative;
-        left: 3em;
-    }
-
-    .img2 {
-        position: absolute;
-        left: 11em;
-    }
-    .img3 {
-        position: relative;
-        left: 4em;
+@media only screen and (max-width: 461px) {
+    .features section.section_double {
+       flex-direction: column;
     }
 
-    .img4 {
-        position: absolute;
-        left: 12em;
-    }
-    .img5 {
-        position: relative;
-        left: 3em;
-    }
-
-    .img6 {
-        position: absolute;
-        left: 12em;
-    }
-    .img7 {
-        left: 7em;
-    }
-    .img8 {
-        left: 6em;
-    }
-    .img9 {
-        left: 7em;
-    }
-    .img10 {
-        left: 7em;
-    }
-    .img11 {
-        position: relative;
-        left: 1em;
-    }
-
-    .img12 {
-        position: absolute;
-        left: 11em;
-    }
 }
